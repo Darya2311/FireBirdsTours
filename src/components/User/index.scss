@@ -1,0 +1,37 @@
+.userContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--gray);
+
+  .mainInformation{
+    margin-bottom: 20px;
+    &:hover{
+      cursor: pointer;
+    }
+
+    .userInfo{
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+    }
+
+    .userInfoColored span{
+      background-color: var(--gray);
+    }
+
+    .userInfo span{
+      font-size: 1rem;
+      font-weight: bold;
+      letter-spacing: .2rem;
+      color: var(--accent)
+    }
+  }
+}
+
+.userContainer > *:last-child {
+	align-self: self-end;
+}
+
+

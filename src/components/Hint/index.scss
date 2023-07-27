@@ -1,0 +1,16 @@
+.hintContainer{
+  width: 70%;
+  padding: 100px;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  border: 1px solid var(--black);
+  border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+  .hintContainer{
+    width: 50%;
+    padding: 50px;
+  } 
+}
